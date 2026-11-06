@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { ShieldCheck, Check, Sparkles, Clock, Lock, ArrowRight, Zap, Star } from 'lucide-react';
+import { ShieldCheck, Check, Clock, Lock, ArrowRight, Zap, Star } from 'lucide-react';
 import { CAKTO_CHECKOUT_URL, MASTER_PRODUCT_MOCKUP } from '@/data/guideContent';
 
 interface SelectedPlanInfo {
@@ -197,15 +197,15 @@ export const OfferSection: React.FC<OfferSectionProps> = ({ onSelectPlan, onRequ
                   <span>Suporte para dúvidas</span>
                 </li>
                 <li className="flex items-start gap-2.5 text-emerald-900 font-semibold bg-emerald-50/70 p-2 rounded-lg border border-emerald-200">
-                  <Sparkles className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
+                  <Check className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
                   <span>🎁 BÔNUS 1: 30 Instrumentos com Materiais Recicláveis</span>
                 </li>
                 <li className="flex items-start gap-2.5 text-emerald-900 font-semibold bg-emerald-50/70 p-2 rounded-lg border border-emerald-200">
-                  <Sparkles className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
+                  <Check className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
                   <span>🎁 BÔNUS 2: Calendário de Musicalização Infantil</span>
                 </li>
                 <li className="flex items-start gap-2.5 text-emerald-900 font-semibold bg-emerald-50/70 p-2 rounded-lg border border-emerald-200">
-                  <Sparkles className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
+                  <Check className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
                   <span>🎁 BÔNUS 3: 50 Brincadeiras de Ritmo e Movimento</span>
                 </li>
               </ul>
