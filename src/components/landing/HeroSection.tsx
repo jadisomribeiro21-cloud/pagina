@@ -1,5 +1,5 @@
 import React from 'react';
-import { Sparkles, Clock, AlarmClock, ArrowRight, Palette, Brain, Ear, Music, Lock } from 'lucide-react';
+import { Clock, AlarmClock, ArrowRight, Palette, Brain, Ear, Music, Lock } from 'lucide-react';
 import { MASTER_PRODUCT_MOCKUP } from '@/data/guideContent';
 import { Button } from '@/components/ui/button';
 
@@ -19,9 +19,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenCheckout }) => (
       </div>
 
       <div className="mt-8 mb-5 flex justify-center">
-        <div className="music-ready inline-flex items-center gap-2 rounded-full border px-4 py-2 text-xs sm:text-sm font-extrabold">
-          <Sparkles className="size-4 shrink-0" />
-          <span>+500 ATIVIDADES PRONTAS PARA IMPRIMIR</span>
+        <div className="music-ready inline-flex items-center gap-2 rounded-full border px-4 py-2 text-xs sm:text-sm font-extrabold">          <span>+500 ATIVIDADES PRONTAS PARA IMPRIMIR</span>
         </div>
       </div>
 
