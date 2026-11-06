@@ -1,5 +1,5 @@
 import React from 'react';
-import { XCircle, CheckCircle, Clock, Sparkles, ArrowRight } from 'lucide-react';
+import { XCircle, CheckCircle, Clock, ArrowRight } from 'lucide-react';
 import { WITHOUT_VS_WITH } from '@/data/guideContent';
 
 export const PainSection: React.FC = () => {
