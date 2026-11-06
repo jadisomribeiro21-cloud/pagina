@@ -1,7 +1,7 @@
 import React from 'react';
 import { 
-  Sparkles, 
-  Printer, 
+  Printer,
+  Music, 
   BookMarked, 
   Users, 
   Baby, 
@@ -30,7 +30,7 @@ export const BenefitsSection: React.FC = () => {
       desc: 'Atividades nem fáceis demais que causem tédio, nem difíceis demais que gerem frustração. O nível exato de desafio lúdico.',
     },
     {
-      icon: Sparkles,
+      icon: Music,
       title: '100% Visual e Sem Teorias Chatas',
       desc: 'A criança aprende o que é grave, agudo, ritmo e notas sem perceber que está estudando — é uma grande brincadeira de pintar e cantar.',
     },
