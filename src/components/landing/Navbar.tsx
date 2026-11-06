@@ -1,5 +1,5 @@
 import React from 'react';
-import { Music, Clock, Sparkles } from 'lucide-react';
+import { Music, Clock } from 'lucide-react';
 
 interface NavbarProps {
   onOpenCheckout: () => void;
