@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Layers, Check, ChevronDown, Sparkles, Printer, Music, Award } from 'lucide-react';
+import { Layers, Check, ChevronDown, Printer, Music, Award } from 'lucide-react';
 import { MODULES_LIST, MASTER_PRODUCT_MOCKUP } from '@/data/guideContent';
 
 export const ModulesSection: React.FC = () => {
