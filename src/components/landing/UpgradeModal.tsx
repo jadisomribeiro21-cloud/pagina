@@ -1,5 +1,5 @@
 import React from 'react';
-import { X, Check, Sparkles, ShieldCheck, ArrowRight } from 'lucide-react';
+import { X, Check, ShieldCheck, ArrowRight } from 'lucide-react';
 import { CAKTO_CHECKOUT_URL } from '@/data/guideContent';
 
 interface UpgradeModalProps {
@@ -56,15 +56,15 @@ export const UpgradeModal: React.FC<UpgradeModalProps> = ({
             <span>Mais de 500 Atividades Musicais em PDF</span>
           </li>
           <li className="flex items-start gap-2.5 text-emerald-900 font-semibold bg-emerald-50/60 p-1.5 rounded-lg border border-emerald-200/50">
-            <Sparkles className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
+            <Check className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
             <span>🎁 BÔNUS 1: 30 Instrumentos com Materiais Recicláveis</span>
           </li>
           <li className="flex items-start gap-2.5 text-emerald-900 font-semibold bg-emerald-50/60 p-1.5 rounded-lg border border-emerald-200/50">
-            <Sparkles className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
+            <Check className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
             <span>🎁 BÔNUS 2: Calendário de Musicalização Infantil</span>
           </li>
           <li className="flex items-start gap-2.5 text-emerald-900 font-semibold bg-emerald-50/60 p-1.5 rounded-lg border border-emerald-200/50">
-            <Sparkles className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
+            <Check className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
             <span>🎁 BÔNUS 3: 50 Brincadeiras de Ritmo e Movimento</span>
           </li>
           <li className="flex items-start gap-2.5">
