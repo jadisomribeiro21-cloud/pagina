@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { X, ShieldCheck, Lock, QrCode, CreditCard, FileText, CheckCircle2, Copy, Download, Sparkles, Check } from 'lucide-react';
+import { X, ShieldCheck, Lock, QrCode, CreditCard, FileText, CheckCircle2, Copy, Download, Check } from 'lucide-react';
 import { MASTER_PRODUCT_MOCKUP, CAKTO_CHECKOUT_URL } from '@/data/guideContent';
 
 
@@ -258,9 +258,7 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({
                 {/* Conditional Payment Content */}
                 {paymentMethod === 'pix' && (
                   <div className="p-4 rounded-2xl bg-[#0b1428] border border-amber-400/30 text-center space-y-3">
-                    <div className="text-xs font-semibold text-emerald-400 flex items-center justify-center gap-1.5">
-                      <Sparkles className="w-3.5 h-3.5" />
-                      Aprovação instantânea e envio imediato no seu e-mail!
+                    <div className="text-xs font-semibold text-emerald-400 flex items-center justify-center gap-1.5">                      Aprovação instantânea e envio imediato no seu e-mail!
                     </div>
                     
                     <div className="bg-white p-3 rounded-xl inline-block shadow-md">
