@@ -1,5 +1,5 @@
 import React from 'react';
-import { Gift, Check, Sparkles, Music, Calendar, Activity, Zap, ArrowRight } from 'lucide-react';
+import { Gift, Check, Music, Calendar, Activity, Zap, ArrowRight } from 'lucide-react';
 import { BONUSES_LIST, BONUS_MOCKUP_IMAGE } from '@/data/guideContent';
 
 interface BonusSectionProps {
@@ -99,9 +99,7 @@ export const BonusSection: React.FC<BonusSectionProps> = ({ onOpenCheckout }) =>
 
         {/* Bonus Value Summary & CTA */}
         <div className="max-w-3xl mx-auto text-center bg-[#15244a] p-8 rounded-3xl border border-amber-400/30 shadow-xl">
-          <div className="inline-flex items-center gap-2 text-xs sm:text-sm font-bold text-amber-300 uppercase tracking-wider mb-2">
-            <Sparkles className="w-4 h-4 text-amber-400" />
-            <span>Total de R$ 75,00 em Bônus Gratuitos no Plano Premium</span>
+          <div className="inline-flex items-center gap-2 text-xs sm:text-sm font-bold text-amber-300 uppercase tracking-wider mb-2">            <span>Total de R$ 75,00 em Bônus Gratuitos no Plano Premium</span>
           </div>
           <h3 className="text-2xl sm:text-3xl font-black text-white mb-4 font-display">
             Leve Todos os 3 Bônus no Plano Premium por Apenas R$ 29,90!
