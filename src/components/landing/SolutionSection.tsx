@@ -1,5 +1,5 @@
 import React from 'react';
-import { CheckCircle, XCircle, Heart, Sparkles, Brain, Music, Smile, ShieldCheck } from 'lucide-react';
+import { CheckCircle, XCircle, Heart, Brain, Music, Smile, ShieldCheck } from 'lucide-react';
 import { KIDS_ACTIVITY_PHOTO } from '@/data/guideContent';
 
 export const SolutionSection: React.FC = () => {
@@ -8,9 +8,7 @@ export const SolutionSection: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <div className="inline-flex items-center gap-2 mb-3 text-xs sm:text-sm font-bold text-indigo-950 uppercase tracking-wider">
-            <Sparkles className="w-4 h-4 text-amber-600" />
-            <span>A Revolução no Aprendizado Infantil</span>
+          <div className="inline-flex items-center gap-2 mb-3 text-xs sm:text-sm font-bold text-indigo-950 uppercase tracking-wider">            <span>A Revolução no Aprendizado Infantil</span>
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-stone-950 tracking-tight leading-tight mb-5 font-display">
             Pequenos Músicos: O Método Lúdico que Conecta Diversão, Foco e Desenvolvimento Real
